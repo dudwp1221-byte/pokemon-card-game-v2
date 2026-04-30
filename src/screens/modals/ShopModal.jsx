@@ -8,7 +8,7 @@ import {
   persistCoins,
 } from "../../lib/storage";
 import { saveLeaderboard } from "../../lib/db";
-import { loadShopAsset, loadShopAudio } from "../../lib/assets";
+import { loadShopAsset } from "../../lib/assets";
 import { EmoteMedia } from "../../components/misc";
 
 const CATS = [
@@ -91,7 +91,7 @@ export default function ShopModal({
       onApplyBg(item.type, newId ? previews[item.id] || null : null);
     else if (item.type === "bgm") {
       if (newId)
-        loadShopAudio(item.file).then((url) => {
+        loadShopAsset(item.file).then((url) => {
           if (url) onApplySounds({ bgm: { data: url, name: item.file } });
         });
       else onApplySounds(null);
