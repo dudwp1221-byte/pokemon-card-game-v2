@@ -19,7 +19,7 @@ interface Props {
 }
 
 const MEWTWO_IMG =
-  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png";
+  "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/150.png";
 
 export default function AttendanceModal({ onClaim, onClose }: Props) {
   const [data, setData] = useState(getAttendance);

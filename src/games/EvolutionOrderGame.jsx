@@ -6,7 +6,7 @@ import { useSFX, useBGM } from "../lib/sounds"; // ⭐ 사운드 import
 const TIME_PER_Q = 8;
 const TOTAL_ROUNDS = 15;
 const BASE =
-  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/";
+  "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/";
 const p = (id, n) => ({ id, n });
 
 // { base, correct, decoys[3], hint }

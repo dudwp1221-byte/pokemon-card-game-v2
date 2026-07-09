@@ -230,7 +230,7 @@ export default function MewMemoryGame({ onClose, onGameEnd }) {
           }}
         >
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/151.png"
             alt="뮤"
             style={{
               width: 110,
@@ -430,7 +430,7 @@ export default function MewMemoryGame({ onClose, onGameEnd }) {
                       }}
                     >
                       <img
-                        src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${card.id}.png`}
+                        src={`https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${card.id}.png`}
                         alt={card.name}
                         style={{
                           width: "80%",
@@ -475,7 +475,7 @@ export default function MewMemoryGame({ onClose, onGameEnd }) {
             </div>
           )}
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/151.png"
             alt="뮤"
             style={{
               width: 100,

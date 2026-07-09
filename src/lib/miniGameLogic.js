@@ -13,7 +13,7 @@ export const MINI_GAMES = [
     name: "디그다 잡기",
     emoji: "🐾",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/50.png",
     desc: "구멍에서 튀어나오는 디그다를 잡아라!",
     color: "#c2410c",
     gradient: "linear-gradient(135deg,#7c2d12,#c2410c)",
@@ -25,7 +25,7 @@ export const MINI_GAMES = [
     name: "잉어킹의 도전",
     emoji: "🐟",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/129.png",
     desc: "폭포를 올라 갸라도스로 진화하라!",
     color: "#ef4444",
     gradient: "linear-gradient(135deg,#991b1b,#ef4444)",
@@ -37,7 +37,7 @@ export const MINI_GAMES = [
     name: "뮤의 기억게임",
     emoji: "🔮",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/151.png",
     desc: "뮤가 숨겨놓은 포켓몬 카드를 찾아라!",
     color: "#db2777",
     gradient: "linear-gradient(135deg,#831843,#db2777)",
@@ -49,7 +49,7 @@ export const MINI_GAMES = [
     name: "잠만보 간식타임",
     emoji: "😴",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/143.png",
     desc: "잠만보가 좋아하는 간식을 받아라!",
     color: "#d97706",
     gradient: "linear-gradient(135deg,#92400e,#d97706)",
@@ -61,7 +61,7 @@ export const MINI_GAMES = [
     name: "피카츄런",
     emoji: "⚡",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
     desc: "천둥의 돌을 피해 피카츄런!",
     color: "#ea580c",
     gradient: "linear-gradient(135deg,#7c2d12,#ea580c)",
@@ -84,7 +84,7 @@ export const MINI_GAMES = [
     name: "리자몽 타이밍",
     emoji: "🔥",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/6.png",
     desc: "리자몽의 불꽃이 목표 지점에서 탭!",
     color: "#ea580c",
     gradient: "linear-gradient(135deg,#7c2d12,#ea580c)",
@@ -96,7 +96,7 @@ export const MINI_GAMES = [
     name: "메타몽 따라하기",
     emoji: "💜",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/132.png",
     desc: "메타몽의 변신 순서를 따라 탭하라!",
     color: "#9333ea",
     gradient: "linear-gradient(135deg,#581c87,#9333ea)",
@@ -108,7 +108,7 @@ export const MINI_GAMES = [
     name: "포켓 핀볼",
     emoji: "⚡",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
     desc: "피카츄와 함께 각도를 조준해 포켓몬을 물리쳐라!",
     color: "#ef4444",
     gradient: "linear-gradient(135deg,#991b1b,#ef4444)",
@@ -120,7 +120,7 @@ export const MINI_GAMES = [
     name: "로켓단 피하기",
     emoji: "🚀",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/52.png",
     desc: "로켓단의 폭탄을 피해 살아남아라!",
     color: "#7c3aed",
     gradient: "linear-gradient(135deg,#4c1d95,#7c3aed)",
@@ -132,7 +132,7 @@ export const MINI_GAMES = [
     name: "뮤츠 피하기",
     emoji: "🔮",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/150.png",
     desc: "뮤츠의 사이코키네시스를 피하라!",
     color: "#9333ea",
     gradient: "linear-gradient(135deg,#581c87,#9333ea)",
@@ -144,7 +144,7 @@ export const MINI_GAMES = [
     name: "진화 순서 맞추기",
     emoji: "🧬",
     pokemonImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/133.png",
     desc: "섞인 포켓몬을 진화 순서대로 탭!",
     color: "#4f46e5",
     gradient: "linear-gradient(135deg,#3730a3,#4f46e5)",

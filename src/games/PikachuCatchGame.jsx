@@ -547,7 +547,7 @@ export default function PikachuCatchGame({ onClose, onGameEnd }) {
           }}
         >
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/143.png"
             alt="잠만보"
             style={{
               width: 120,
@@ -785,7 +785,7 @@ export default function PikachuCatchGame({ onClose, onGameEnd }) {
             }}
           >
             <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+              src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/143.png"
               alt="잠만보"
               style={{
                 width: "100%",
@@ -827,7 +827,7 @@ export default function PikachuCatchGame({ onClose, onGameEnd }) {
             </div>
           )}
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/143.png"
             alt="잠만보"
             style={{
               width: 110,

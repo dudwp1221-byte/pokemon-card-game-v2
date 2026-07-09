@@ -629,7 +629,7 @@ export default function PocketFestivalModal({
               }}
             >
               <img
-                src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${weeklySeal.pokeId}.png`}
+                src={`https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${weeklySeal.pokeId}.png`}
                 alt={weeklySeal.name}
                 style={{
                   width: 66,

@@ -4,7 +4,7 @@ import { loadLeagueCards } from "../../lib/assets";
 import { GYM_BADGES, getUnlockedBadges } from "../../lib/titleLogic";
 
 const art = (id) =>
-  `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
+  `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${id}.png`;
 
 const POKEMON_STYLE = {
   hoenn: { right: -55 },

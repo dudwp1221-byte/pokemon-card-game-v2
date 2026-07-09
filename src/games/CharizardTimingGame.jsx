@@ -219,7 +219,7 @@ export default function CharizardTimingGame({ onClose, onGameEnd }) {
           }}
         >
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/6.png"
             alt="리자몽"
             style={{
               width: 120,
@@ -335,7 +335,7 @@ export default function CharizardTimingGame({ onClose, onGameEnd }) {
             </div>
           </div>
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/6.png"
             alt="리자몽"
             style={{
               width: 130,
@@ -500,7 +500,7 @@ export default function CharizardTimingGame({ onClose, onGameEnd }) {
             </div>
           )}
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/6.png"
             alt="리자몽"
             style={{
               width: 110,

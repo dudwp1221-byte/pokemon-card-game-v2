@@ -1352,7 +1352,7 @@ export default function PokeballThrowGame({ onClose, onGameEnd }) {
           }}
         >
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png"
             alt="피카츄"
             style={{
               width: 110,
@@ -1640,7 +1640,7 @@ export default function PokeballThrowGame({ onClose, onGameEnd }) {
                       }
                     />
                     <image
-                      href={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${m.pokeId}.png`}
+                      href={`https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/${m.pokeId}.png`}
                       x={mx - cw * 0.38}
                       y={my - ch * 0.44}
                       width={cw * 0.76}
@@ -1970,7 +1970,7 @@ export default function PokeballThrowGame({ onClose, onGameEnd }) {
               })}
 
               <image
-                href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+                href="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png"
                 x="36"
                 y={PIKA_Y - 14}
                 width="28"
@@ -2281,7 +2281,7 @@ export default function PokeballThrowGame({ onClose, onGameEnd }) {
             </div>
           )}
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png"
             alt="피카츄"
             style={{
               width: 90,

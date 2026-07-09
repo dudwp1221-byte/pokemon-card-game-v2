@@ -622,7 +622,7 @@ export default function SilhouetteQuizGame({ onClose, onGameEnd }) {
               }}
             >
               <img
-                src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${q.answer.id}.png`}
+                src={`https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${q.answer.id}.png`}
                 alt="?"
                 style={{
                   width: 148,

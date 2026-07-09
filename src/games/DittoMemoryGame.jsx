@@ -4,7 +4,7 @@ import { recordScore, getBestScore } from "../lib/miniGameLogic";
 import { useSFX, useBGM } from "../lib/sounds"; // ⭐ 사운드
 
 const GH =
-  "https://raw.githubusercontent.com/dudwp1221-byte/pokeset-images/main/";
+  "https://cdn.jsdelivr.net/gh/dudwp1221-byte/pokeset-images@main/";
 
 const BTNS = [
   {
@@ -15,7 +15,7 @@ const BTNS = [
     glow: "#fde047",
     dittoImg: GH + "ditto_as_pikachu.png",
     fallback:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png",
   },
   {
     id: 1,
@@ -25,7 +25,7 @@ const BTNS = [
     glow: "#d8b4fe",
     dittoImg: GH + "ditto_as_gengar.png",
     fallback:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/94.png",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const BTNS = [
     glow: "#fbcfe8",
     dittoImg: GH + "ditto_as_mew.png",
     fallback:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/151.png",
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const BTNS = [
     glow: "#bae6fd",
     dittoImg: GH + "ditto_as_magikarp.png",
     fallback:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/129.png",
   },
   {
     id: 4,
@@ -55,7 +55,7 @@ const BTNS = [
     glow: "#86efac",
     dittoImg: GH + "ditto_as_snorlax.png",
     fallback:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/143.png",
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ const BTNS = [
     glow: "#fcd34d",
     dittoImg: GH + "ditto_as_eevee.png",
     fallback:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/133.png",
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ const BTNS = [
     glow: "#c7d2fe",
     dittoImg: GH + "ditto_as_mewtwo.png",
     fallback:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/150.png",
   },
   {
     id: 7,
@@ -85,7 +85,7 @@ const BTNS = [
     glow: "#fde68a",
     dittoImg: GH + "ditto_as_psyduck.png",
     fallback:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/54.png",
   },
   {
     id: 8,
@@ -95,7 +95,7 @@ const BTNS = [
     glow: "#fda4af",
     dittoImg: GH + "ditto_as_jigglypuff.png",
     fallback:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/39.png",
   },
   {
     id: 9,
@@ -105,7 +105,7 @@ const BTNS = [
     glow: "#fed7aa",
     dittoImg: GH + "ditto_as_charmander.png",
     fallback:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/4.png",
   },
 ];
 
@@ -343,7 +343,7 @@ export default function DittoMemoryGame({ onClose, onGameEnd }) {
           }}
         >
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/132.png"
             alt="메타몽"
             style={{
               width: 110,
@@ -461,7 +461,7 @@ export default function DittoMemoryGame({ onClose, onGameEnd }) {
               <BtnImg btn={BTNS[lit]} isLit={true} size={110} />
             ) : (
               <img
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png"
+                src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/132.png"
                 alt="메타몽"
                 style={{
                   width: 100,
@@ -623,7 +623,7 @@ export default function DittoMemoryGame({ onClose, onGameEnd }) {
             )
           )}
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/132.png"
             alt="메타몽"
             style={{
               width: 100,

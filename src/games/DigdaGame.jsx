@@ -9,28 +9,28 @@ const CREATURES = {
     name: "디그다",
     points: 1,
     danger: false,
-    img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+    img: "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/50.png",
   },
   dugtrio: {
     id: "dugtrio",
     name: "닥트리오",
     points: 3,
     danger: false,
-    img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+    img: "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/51.png",
   },
   alolan_diglett: {
     id: "alolan_diglett",
     name: "알로라 디그다",
     points: 5,
     danger: false,
-    img: "https://raw.githubusercontent.com/dudwp1221-byte/pokeset-images/main/Alolan_Dugtrio.png",
+    img: "https://cdn.jsdelivr.net/gh/dudwp1221-byte/pokeset-images@main/Alolan_Dugtrio.png",
   },
   geodude: {
     id: "geodude",
     name: "모래두지",
     points: -3,
     danger: true,
-    img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+    img: "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/27.png",
   },
 };
 

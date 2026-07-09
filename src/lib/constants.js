@@ -5,17 +5,21 @@ function cleanCDN(u) {
     .trim()
     .replace(/\/$/, "")
     .replace(/\.git$/, "");
+  // raw.githubusercontent.com 은 CDN 이 아니라 대량 요청 시 429(rate limit)로
+  // 이미지가 깨지므로, 실제 CDN 인 jsDelivr(cdn.jsdelivr.net/gh)로 변환한다.
+  // github.com/{user}/{repo}[/{branch}] -> cdn.jsdelivr.net/gh/{user}/{repo}@{branch}
   u = u.replace(
     /^https?:\/\/github\.com\/([^/]+)\/([^/]+)(\/.*)?$/,
     (_, a, b, r) =>
-      `https://raw.githubusercontent.com/${a}/${b}/${
+      `https://cdn.jsdelivr.net/gh/${a}/${b}@${
         r ? r.replace(/^\//, "") : "main"
       }`
   );
-  if (u.includes("raw.githubusercontent.com")) {
-    const p = u.replace("https://raw.githubusercontent.com/", "").split("/");
-    if (p.length < 3) u += "/main";
-  }
+  // 이미 raw.githubusercontent.com 형태로 들어온 경우도 jsDelivr 로 변환한다.
+  u = u.replace(
+    /^https?:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)/,
+    (_, a, b, branch) => `https://cdn.jsdelivr.net/gh/${a}/${b}@${branch}`
+  );
   return u;
 }
 export const CLEAN = cleanCDN(CDN_RAW);

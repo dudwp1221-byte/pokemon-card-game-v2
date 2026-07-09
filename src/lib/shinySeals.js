@@ -4,7 +4,7 @@ const STORAGE_KEY = "pokeset_shiny_dex";
 
 // ── PokeAPI 공식 아트워크 이로치 버전 ──
 export function getShinyArtwork(pokeId) {
-  return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/${pokeId}.png`;
+  return `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/${pokeId}.png`;
 }
 
 // ── 이로치 씰 등급별 가중치 (낮을수록 희귀) ──

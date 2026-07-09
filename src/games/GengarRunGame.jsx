@@ -19,28 +19,28 @@ const OBS_TYPES = [
     id: "stone_s",
     h: 8,
     y: GROUND_Y - 8,
-    img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png",
+    img: "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/items/thunder-stone.png",
     w: 6,
   },
   {
     id: "stone_m",
     h: 12,
     y: GROUND_Y - 12,
-    img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png",
+    img: "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/items/thunder-stone.png",
     w: 7,
   },
   {
     id: "stone_l",
     h: 16,
     y: GROUND_Y - 16,
-    img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png",
+    img: "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/items/thunder-stone.png",
     w: 8,
   },
   {
     id: "stone_xl",
     h: 20,
     y: GROUND_Y - 20,
-    img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png",
+    img: "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/items/thunder-stone.png",
     w: 9,
   },
 ];
@@ -360,7 +360,7 @@ export default function GengarRunGame({ onClose, onGameEnd }) {
               />
             </div>
             <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+              src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png"
               alt="피카츄"
               style={{
                 width: 120,
@@ -383,7 +383,7 @@ export default function GengarRunGame({ onClose, onGameEnd }) {
             }}
           >
             <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png"
+              src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/items/thunder-stone.png"
               alt="천둥의돌"
               style={{
                 width: 36,
@@ -394,7 +394,7 @@ export default function GengarRunGame({ onClose, onGameEnd }) {
             />
             <div style={{ fontSize: 24 }}>→→→</div>
             <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+              src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png"
               alt="피카츄"
               style={{
                 width: 44,
@@ -590,7 +590,7 @@ export default function GengarRunGame({ onClose, onGameEnd }) {
             }}
           >
             <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+              src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/25.png"
               alt="피카츄"
               style={{
                 width: "100%",
@@ -694,7 +694,7 @@ export default function GengarRunGame({ onClose, onGameEnd }) {
           )}
           <div style={{ position: "relative", display: "inline-block" }}>
             <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+              src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/26.png"
               alt="라이츄"
               style={{
                 width: 130,

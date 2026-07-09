@@ -55,7 +55,7 @@ function SilhouetteHero({ pokeId }) {
         }}
       />
       <img
-        src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokeId}.png`}
+        src={`https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${pokeId}.png`}
         alt=""
         style={{
           width: 110,

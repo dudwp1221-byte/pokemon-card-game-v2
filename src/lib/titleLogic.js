@@ -230,7 +230,7 @@ export const TITLES = [
 
 // ── 체육관 뱃지
 const CDN =
-  "https://raw.githubusercontent.com/dudwp1221-byte/pokeset-images/main";
+  "https://cdn.jsdelivr.net/gh/dudwp1221-byte/pokeset-images@main";
 
 export const GYM_BADGES = {
   kanto: {

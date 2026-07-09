@@ -853,7 +853,7 @@ export default function LobbyScreen({
                 }}
               >
                 <img
-                  src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/6.png"
+                  src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/6.png"
                   alt=""
                   style={{
                     width: 42,
@@ -952,7 +952,7 @@ export default function LobbyScreen({
                 }}
               >
                 <img
-                  src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${weeklySeal.pokeId}.png`}
+                  src={`https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${weeklySeal.pokeId}.png`}
                   alt=""
                   style={{ width: 42, height: 42, objectFit: "contain" }}
                 />

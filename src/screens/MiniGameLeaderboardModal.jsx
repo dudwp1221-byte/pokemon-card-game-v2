@@ -313,7 +313,7 @@ export default function MiniGameLeaderboardModal({ myProfile, onClose }) {
             }}
           >
             <img
-              src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${weeklySeal.pokeId}.png`}
+              src={`https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${weeklySeal.pokeId}.png`}
               alt={weeklySeal.name}
               style={{
                 width: 48,
@@ -538,7 +538,7 @@ export default function MiniGameLeaderboardModal({ myProfile, onClose }) {
                 }}
               >
                 <img
-                  src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`}
+                  src={`https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`}
                   alt={s.name}
                   style={{
                     width: 32,

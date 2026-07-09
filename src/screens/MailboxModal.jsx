@@ -513,7 +513,7 @@ function LetterDetailModal({ letter, onClose, onClaim, claiming }) {
                     }}
                   >
                     <img
-                      src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${seal.pokeId}.png`}
+                      src={`https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${seal.pokeId}.png`}
                       alt={seal.name}
                       style={{ width: 48, height: 48, objectFit: "contain" }}
                     />

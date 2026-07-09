@@ -76,8 +76,8 @@ export const CAP_PIKACHU_SEALS = [
   },
 ].map((s) => ({
   ...s,
-  artwork: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`,
-  artworkFallback: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${s.pokeId}.png`,
+  artwork: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`,
+  artworkFallback: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/home/${s.pokeId}.png`,
 }));
 
 export const COSPLAY_PIKACHU_SEALS = [
@@ -131,8 +131,8 @@ export const COSPLAY_PIKACHU_SEALS = [
   },
 ].map((s) => ({
   ...s,
-  artwork: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`,
-  artworkFallback: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${s.pokeId}.png`,
+  artwork: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`,
+  artworkFallback: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/home/${s.pokeId}.png`,
 }));
 
 export const PARTNER_SEALS = [
@@ -154,8 +154,8 @@ export const PARTNER_SEALS = [
   },
 ].map((s) => ({
   ...s,
-  artwork: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`,
-  artworkFallback: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${s.pokeId}.png`,
+  artwork: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`,
+  artworkFallback: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/home/${s.pokeId}.png`,
 }));
 
 export const MEGA_SEALS = [
@@ -257,8 +257,8 @@ export const MEGA_SEALS = [
   },
 ].map((s) => ({
   ...s,
-  artwork: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`,
-  artworkFallback: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${s.pokeId}.png`,
+  artwork: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`,
+  artworkFallback: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/home/${s.pokeId}.png`,
 }));
 
 export const GMAX_SEALS = [
@@ -360,8 +360,8 @@ export const GMAX_SEALS = [
   },
 ].map((s) => ({
   ...s,
-  artwork: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`,
-  artworkFallback: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${s.pokeId}.png`,
+  artwork: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${s.pokeId}.png`,
+  artworkFallback: `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/home/${s.pokeId}.png`,
 }));
 
 export const ALL_EVENT_SEALS = [
@@ -373,7 +373,7 @@ export const ALL_EVENT_SEALS = [
 ];
 
 export function getCapArtwork(pokeId) {
-  return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${pokeId}.png`;
+  return `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/home/${pokeId}.png`;
 }
 
 // ── 모자씰 도감 ──

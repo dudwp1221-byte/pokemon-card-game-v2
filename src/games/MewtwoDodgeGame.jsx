@@ -408,7 +408,7 @@ export default function MewtwoDodgeGame({ onClose, onGameEnd }) {
           }}
         >
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/150.png"
             alt=""
             style={{
               width: 120,
@@ -529,7 +529,7 @@ export default function MewtwoDodgeGame({ onClose, onGameEnd }) {
               }}
             >
               <img
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+                src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/150.png"
                 alt=""
                 style={{
                   width: "100%",
@@ -571,7 +571,7 @@ export default function MewtwoDodgeGame({ onClose, onGameEnd }) {
               }}
             >
               <img
-                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+                src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/151.png"
                 alt=""
                 style={{
                   width: "100%",
@@ -628,7 +628,7 @@ export default function MewtwoDodgeGame({ onClose, onGameEnd }) {
             </div>
           )}
           <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+            src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/150.png"
             alt=""
             style={{
               width: 100,

@@ -3,7 +3,7 @@
 // ============================================================
 
 const CDN =
-  "https://raw.githubusercontent.com/dudwp1221-byte/pokeset-images/main";
+  "https://cdn.jsdelivr.net/gh/dudwp1221-byte/pokeset-images@main";
 
 // ─── 씰 등급 정의 ───────────────────────────────────────────
 export const SEAL_GRADES = {
@@ -46,11 +46,11 @@ export const SEAL_GRADES = {
 
 // ─── 스프라이트 URL 헬퍼 ────────────────────────────────────
 const sprite = (id) =>
-  `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
+  `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/${id}.png`;
 const artSprite = (id) =>
-  `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
+  `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/${id}.png`;
 const shinyArtSprite = (id) =>
-  `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/${id}.png`;
+  `https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/shiny/${id}.png`;
 
 // ─── 포켓몬 씰 목록 (1세대 151종) ─────────────────────────
 export const ALL_SEALS = [
@@ -260,7 +260,7 @@ export const BREAD_TYPES = {
     bagLine2: "딸기 카스타드빵",
     imgUrl: `${CDN}/bread1.png`,
     pokeImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/50.png",
     pool: { COMMON: 0.73, RARE: 0.26, SR: 0.01, LEGENDARY: 0, HOLO: 0 },
   },
   cream: {
@@ -275,7 +275,7 @@ export const BREAD_TYPES = {
     bagLine2: "등껍질 크림빵",
     imgUrl: `${CDN}/bread2.png`,
     pokeImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/7.png",
     pool: { COMMON: 0.42, RARE: 0.42, SR: 0.15, LEGENDARY: 0.01, HOLO: 0 },
   },
   choco: {
@@ -290,7 +290,7 @@ export const BREAD_TYPES = {
     bagLine2: "초코케익",
     imgUrl: `${CDN}/bread3.png`,
     pokeImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/92.png",
     pool: { COMMON: 0.18, RARE: 0.35, SR: 0.44, LEGENDARY: 0.02, HOLO: 0.01 },
   },
   champion: {
@@ -305,7 +305,7 @@ export const BREAD_TYPES = {
     bagLine2: "초코롤",
     imgUrl: `${CDN}/bread4.png`,
     pokeImg:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+      "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/52.png",
     pool: { COMMON: 0.08, RARE: 0.27, SR: 0.57, LEGENDARY: 0.05, HOLO: 0.03 },
   },
 };
